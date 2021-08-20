@@ -1,0 +1,119 @@
+ .titleOffres{
+    font-family: var(--Fredoka);
+    font-size: 25px;
+    color: #03084E;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.rightROffres .pseudo{
+    font-family: var(--Roboto);
+    font-size: 18px;
+    color: #03084E;
+}
+.rightROffres .date{
+    color: #99C2EC;
+    font-family: var(--Roboto);
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+}
+.col2 span{
+    color: #355B97;
+    font-family: var(--Fredoka);
+}
+.rightROffres button{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.rightROffres .col1 img{
+    width: 35px;
+}
+.rectOffre{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+.toprect{
+    display: grid;
+    grid-template-columns: 10% 1.5fr 1fr;
+    gap: 2%;
+}
+.rectpar{
+    padding: 0 2% 0 10%;
+}
+.rectpar P{
+    color: #7F7B88;
+    font-family: var(--Roboto);
+    font-size: 14px;
+}
+.rectpar hr{ 
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.imgcol{
+    display: inline;
+    position: relative;
+    top: 10px;
+    margin-left: 10%;
+}
+.imgcol img{
+    top: 5%;
+    position: relative;
+}
+
+
+.col4{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 3%;
+}
+.col4 button{
+    font-family: var(--Roboto);
+    width: 100%;
+}
+.col4 button:nth-child(2){
+  background-color: #355B97;
+  color: white;
+}
+.col4 button:first-of-type{
+    background-color: white;
+    border: 1px solid #7F7B88;
+}
+.rightcontainerOffres{
+    background-color: #F5F5FB;
+    height: 77%;
+    padding: 20px 15px;
+    border-radius: 9px;
+}
+
+.rightROffres{
+    padding: 5%;
+    border-top:solid 5px #F5F5FB;
+}
+
+.btnEncours button{
+    width: 40%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.btnEncours button:nth-child(1){
+    background-color:#355b97;
+    margin-left: 10%;
+}
+.btnEncours button:nth-child(2){
+    background-color:#99c2ec;
+}
+@media screen and (max-width:960px){
+
+}

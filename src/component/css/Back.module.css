@@ -1,0 +1,13 @@
+.back{
+    margin: 30px 10% ;
+}
+.backimg{
+    transform: rotate(180deg);
+}
+.backspan{
+    font-family: var(--Roboto);
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    color: #02044F;
+    margin-left: 10px;
+}

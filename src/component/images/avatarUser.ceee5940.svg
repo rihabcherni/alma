@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_17732" width="65" height="65" class="cls-1" rx="32.5" transform="translate(0 .409)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#99c2ec}
+        </style>
+    </defs>
+    <g id="Groupe_3409" transform="translate(-1536.5 -784.909)">
+        <rect id="Rectangle_17731" width="65" height="65" class="cls-1" rx="32.5" transform="translate(1536.5 784.909)"/>
+        <g id="Groupe_de_masques_31" clip-path="url(#clip-path)" transform="translate(1536.5 784.5)">
+            <g id="user_1_" transform="translate(12.869 14.278)">
+                <path id="Tracé_3618" fill="#f3f2f7" d="M123.013 88.248a43.908 43.908 0 0 0-7.357-4.452 7.6 7.6 0 0 1-4.334-7.96.813.813 0 0 1 .024-.154s6.909-4.677 5.952-9.235a4.548 4.548 0 0 0 .531-.012c3.047-.283 3.236-4.818.224-5.3-.024 0-.059-.012-.083-.012l-.094-.5c.921-3.224 3.165-12.991-3.626-12.046 0 0-4.877-8.066-15.187-4.181s-7.629 13.12-7.629 13.12l1.275 3.684a2.684 2.684 0 0 0 .437 5.243 4.761 4.761 0 0 0 .543.012c-.968 4.559 5.94 9.235 5.94 9.235.012.059.012.106.024.154a7.627 7.627 0 0 1-4.334 7.96 44.206 44.206 0 0 0-7.357 4.452A9.487 9.487 0 0 0 85.6 90.7a30.033 30.033 0 0 0 39.763-.024 9.389 9.389 0 0 0-2.35-2.428z" transform="translate(-85.6 -43.341)"/>
+            </g>
+        </g>
+    </g>
+</svg>

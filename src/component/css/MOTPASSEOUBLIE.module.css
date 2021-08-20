@@ -1,0 +1,119 @@
+.mainFor{
+    padding: 3% 5% ;
+    margin: 2% 4% ;
+    background-color: #F5F5FB;
+}
+.containerFor{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+.leftFor{
+    width: 90%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    padding: 25px 61px 0px;
+    }
+.leftSent{
+    width: 90%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    padding: 25px 61px 0px;
+    text-align: center;
+}
+.titleFor{
+    font-size: 24px;
+    font-family:var(--Fredoka);
+    letter-spacing: 0.48px;
+    color: #02044F;
+    margin-bottom: 90px;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 4%!important;
+}
+.pargraphFor{
+    font: 14px var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+.inputFor{
+    width:100%;
+    height: 50px;
+    margin-top: 50px;
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 0 20px;
+    font: 14px  var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+    border: none;
+}
+.inputFor:hover{
+    border: 2px solid #355B97;
+}
+.buttonFor{
+    width: 97%;
+    height: 50px;
+    margin-top: 57px;
+    background-color: #FEC62E;
+    font:normal 14px var(--Roboto);
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.lastFor{
+    margin-top: 42px;
+    letter-spacing: 0.44px;
+    text-align: center;
+    font:14px var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #03084E;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+.lastFor a{
+color: #99C2EC;
+}
+.rightFor img{
+    width: 95%;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.aBtn{
+    color: white;
+}
+.sentimg{
+    width: 127px; 
+    height: 127px; 
+    margin-bottom: 40px;
+}
+@media screen and (max-width:966px) {
+    .containerFor{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 57% 43%;
+        gap: 2%;
+        text-align: center;
+    } 
+    .leftFor{
+        width: 100%;
+        }
+    .leftSent{
+        width: 100%;
+    }
+    .rightFor img{
+            width: 400px;
+            height: 380PX;
+            margin-left: 0;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    .mainFor{
+            padding: 7% 5% 1%;
+            margin: 1% 4% 4% 4%;
+            background-color: #F5F5FB;
+        }
+}

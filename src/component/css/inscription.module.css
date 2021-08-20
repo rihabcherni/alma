@@ -1,0 +1,127 @@
+.mainINS{
+    background-color: rgba(8, 33, 92, 0.03) ;
+    margin:2% 3% 1% ;
+    padding:1% 0 1% 12% ;
+  }
+.containerINS{
+      display: grid;
+      grid-template-columns: 35% 35% 22%;
+      gap: 5%;
+      margin-bottom: 20px;
+  }
+.signUpINS , .signInINS{
+    background-color: white;
+    padding: 30px;
+    border-radius: 9px;
+    align-items: center;
+    text-align: center;
+}
+.signInINS{
+    position: relative;
+}
+/*    --------------   center part -----------------*/
+.signInINS h1 , .signUpINS h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    color: #355b97;
+    font-family: var(--Fredoka);
+}
+/*    --------------   right part -----------------*/
+.rightINS img{
+    height: 80%;
+    width: 100%;
+    margin-top: 45%;
+}
+.inputtextboth{
+    width: 46%;
+    padding: 5px;
+    height: 50px;
+    background-color: #f5f5fb;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family:var(--Roboto);
+    border: none;
+    margin-left: 5px;
+}
+.inputtextboth:nth-child(1){
+    margin-left: 4px;
+}
+.topINS{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.topINS h1 {
+    color: #02044f ;
+    font-family: var(--Fredoka);
+    font-size: 35px;
+    line-height: 2.57;
+    letter-spacing: 0.7px;
+}
+.topINS p {
+    font-family: var(--Roboto);
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.56px;
+    color: #7f7b88;
+    margin-top: -20px;
+}
+.inputins  {
+    padding: 2px;
+    width: 94%;
+    height: 50px;
+    background-color: #f5f5fb;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-family:var(--Roboto);
+    border: none;
+}
+.submitINS {
+    background-color: #c3c3c4;
+    width: 90%;
+    height: 50px;
+    margin: 40px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--Roboto);
+    color: white;
+}
+.inputtextboth:hover , .inputins:hover{
+    border: 2px solid #375C95;
+}
+.forgotINS a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: 0.44px;
+    font-family: var(--Roboto);
+    color: #02044f ;
+}
+@media screen and (max-width:966px) {
+.containerINS{
+        display:grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 30%, 30%, 1fr;
+        gap: 2%;
+        text-align: center;
+    }
+.rightINS img{
+        width: 50%;
+        height: 70%;
+        margin-top: 2%;
+        margin-bottom: -25%;
+ }
+}
+@media screen and (max-width:600px) {
+    .topINS h1 {
+        color: #02044f ;
+        font-family:var(--Fredoka);
+        font-size: 25px;
+        line-height: 2.57;
+        letter-spacing: 0.7px;
+    }
+    .topINS p{
+        font-size: 18px;
+    }
+}

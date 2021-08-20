@@ -1,0 +1,124 @@
+.burgurMenu{
+  display: none !important;
+}
+.navcompheader{
+ display: grid !important;
+ grid-template-columns: 10% 40% 1fr 1fr;
+ height: 80px;
+ top: 0px !important;  
+ position: relative;
+ margin-left: 10px;
+ justify-content: center;
+}
+.logo{
+  width: 163px;
+  height: 62px;
+  position: relative;
+  display: inline !important;
+  margin-left: 15px;
+}
+.nav1{
+  left: 130px;
+  position: relative;
+  top: 12px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+nav a {
+  color: var(--blueColor3);
+  font-family: var(--Robotomeduim);
+  letter-spacing: 0.28px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #02044F;
+  margin-left: 25px;
+  transition: all .5s;
+}
+.icons3{
+  display: flex;
+  margin-top: 20px;
+}
+.icons3 a{
+  margin-left: 25px;
+}
+.icons3 a:first-child{
+  position: relative;
+  top: -10px;
+}
+.icons3 a:last-child{
+  margin-left: 80px;
+}
+/*
+   @media screen and (max-width:960px) {
+     .iconNav  {
+       margin-left: -3%;
+     }
+     .nav1 a{
+       display: none;
+     }
+     a.icon {
+       display: block;
+       margin: 5px 10px  ;
+       position: relative;
+       left: 20px;
+       top: 20px;
+   }
+   .iconlast a{
+     margin-left: 20%;
+   }
+   }
+ 
+   @media screen and (max-width:600px) {
+     .iconNav a , .nav1 a {
+       display: none;
+     }
+       .nav1{
+         position:fixed;
+         height:100vh;
+         background-color:white;
+         padding:30px 5px;
+         left:0;
+         top:-10px; 
+       }
+           .nav1 a  {
+             display: none;
+           }
+          
+           nav a.icon:hover {
+               display: block;
+               margin: 5px 10px  ;
+               background-color: var(--gris1);
+               padding: 5px 10px ;
+               border-radius: 50%;
+       }
+           nav.responsive {
+               position: relative;
+               z-index: 5;
+               width: 400px;
+       }
+           nav.responsive a {
+             padding: 10px;
+             float: none;
+             display: block;
+             text-align: left;
+             font-size: 20px;
+           }
+           nav.responsive a:hover{
+               background-color: rgb(236, 235, 235);
+           }
+           nav .iconNav a {
+             display: none;
+           }
+           nav.responsive .icon{
+               position: absolute;
+               border: none;
+           }
+           nav.responsive .logo{
+               position:relative;
+               border: none;
+               left: 180px;
+               transition:0.3s ease;
+           }
+   }
+  */

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="283" height="283" viewBox="0 0 283 283">
+    <defs>
+        <style>
+            .cls-2{fill:#fec62e}.cls-3{fill:#f8d77b}.cls-6{fill:#355b97}
+        </style>
+    </defs>
+    <g id="Groupe_3530" transform="translate(-770 -438)">
+        <path id="Tracé_3755" fill="#f5f5fb" d="M141.5 0A141.5 141.5 0 1 1 0 141.5 141.5 141.5 0 0 1 141.5 0z" opacity="0.663" transform="translate(770 438)"/>
+        <g id="Groupe_3504" transform="translate(828.089 586.203)">
+            <g id="Groupe_3499" transform="translate(25.601)">
+                <path id="Tracé_3756" d="M117.459 84.716l-2.2 5.893c-.655 1.757 5.513 5.675 13.773 8.752s15.488 4.147 16.141 2.391l2.2-5.893" class="cls-2" transform="translate(-115.216 -83.871)"/>
+                <path id="Tracé_3757" d="M116.614 85.041c-.655 1.757 5.511 5.673 13.772 8.752s15.488 4.147 16.143 2.391-5.513-5.675-13.773-8.752-15.488-4.148-16.142-2.391z" class="cls-3" transform="translate(-114.371 -84.196)"/>
+            </g>
+            <path id="Tracé_3758" fill="#2e58ae" d="M144.95 84.53s-.366-.013-3.757-.013c-7.157 0-12.961 7.383-12.961 16.491s5.8 16.492 12.961 16.492h3.58" transform="translate(-81.477 -83.995)"/>
+            <ellipse id="Ellipse_71" cx="12.961" cy="16.491" fill="#95b8e0" rx="12.961" ry="16.491" transform="translate(50.019 .521)"/>
+            <g id="Groupe_3500" transform="translate(18.668 20.428)">
+                <path id="Tracé_3759" d="M110.95 98.854v6.289c0 1.874 7.146 3.393 15.961 3.393s15.961-1.52 15.961-3.393v-6.289" class="cls-2" transform="translate(-110.95 -95.46)"/>
+                <ellipse id="Ellipse_72" cx="15.961" cy="3.393" class="cls-3" rx="15.961" ry="3.393"/>
+            </g>
+            <path id="Tracé_3760" d="M130.878 92.8s.219.293 2.153 3.078c4.086 5.878 1.333 14.856-6.148 20.053s-16.855 4.643-20.939-1.235l-2.041-2.94" class="cls-2" transform="translate(-96.687 -78.817)"/>
+            <ellipse id="Ellipse_73" cx="16.491" cy="12.961" class="cls-3" rx="16.491" ry="12.961" transform="rotate(-34.81 35.965 11.274)"/>
+            <g id="Groupe_3501" transform="translate(21.215 33.855)">
+                <path id="Tracé_3761" d="M144.44 107.116v6.289c0 1.874-7.146 3.393-15.961 3.393s-15.962-1.52-15.962-3.393v-6.289" class="cls-2" transform="translate(-112.517 -103.722)"/>
+                <ellipse id="Ellipse_74" cx="15.961" cy="3.393" class="cls-3" rx="15.961" ry="3.393"/>
+            </g>
+            <g id="Groupe_3502" transform="translate(45.169 25.193)">
+                <path id="Tracé_3762" d="M158.973 113.394s-2.288 5-2.615 5.719c-.78 1.7-7.91.114-15.927-3.551s-13.884-8.02-13.105-9.723l2.615-5.721" class="cls-6" transform="translate(-127.256 -99.435)"/>
+                <path id="Tracé_3763" fill="#99c2ec" d="M157.967 113.657c-.778 1.7-7.91.114-15.927-3.553s-13.884-8.019-13.105-9.723 7.911-.114 15.927 3.553 13.885 8.018 13.105 9.723z" transform="translate(-126.25 -99.697)"/>
+            </g>
+        </g>
+        <ellipse id="Ellipse_70" cx="62.213" cy="5.941" fill="#efeff3" rx="62.213" ry="5.941" transform="translate(849.2 648.048)"/>
+        <g id="Groupe_3498" transform="translate(868.725 495.916)">
+            <g id="Groupe_3491">
+                <path id="Tracé_3749" fill="none" stroke="#03084e" stroke-width="2px" d="M494.8 127.53l-13.138-8.064a7.218 7.218 0 0 1-2.375-9.928L503.626 69.9a7.218 7.218 0 0 1 9.928-2.375l66.494 40.817a7.218 7.218 0 0 1 2.375 9.925l-10.2 16.615" transform="translate(-478.224 -66.453)"/>
+                <path id="Tracé_3750" fill="#03084e" d="M563.71 129.111L484.867 80.82l6.058-9.868 78.8 48.368z" transform="translate(-469.71 -60.686)"/>
+                <g id="Groupe_3489" transform="translate(16.301 34.133)">
+                    <path id="Rectangle_17806" d="M0 0H4.563V34.541H0z" class="cls-2" transform="rotate(-58.457 3.475 1.944)"/>
+                </g>
+                <g id="Groupe_3490" transform="translate(12.297 40.656)">
+                    <path id="Rectangle_17807" d="M0 0H4.563V23.943H0z" class="cls-2" transform="rotate(-58.459 3.475 1.944)"/>
+                </g>
+            </g>
+            <g id="Groupe_3497" transform="translate(4.743 61.708)">
+                <path id="Tracé_3751" fill="#99c2ec" stroke="#375c95" stroke-width="2px" d="M557.851 175.792H480.3V93.5h77.548a12.429 12.429 0 0 1 12.428 12.428v57.437a12.429 12.429 0 0 1-12.425 12.427z" transform="translate(-480.302 -93.498)"/>
+                <g id="Groupe_3496" transform="translate(0 5.3)">
+                    <g id="Groupe_3495">
+                        <g id="Groupe_3492" transform="translate(0 .001)">
+                            <path id="Rectangle_17808" d="M0 0H3.423V2.282H0z" class="cls-6"/>
+                        </g>
+                        <g id="Groupe_3493" transform="translate(10.225)">
+                            <path id="Tracé_3752" d="M546.036 167.512h-6.8v-2.282h6.8zm-13.6 0h-6.8v-2.282h6.8zm-13.6 0h-6.8v-2.282h6.8zm-13.606 0h-6.8v-2.282h6.8zm-13.6 0h-6.8v-2.282h6.8zm61.355-.055l-.276-2.263a4.862 4.862 0 0 0 4.02-3.32l2.172.705a7.154 7.154 0 0 1-5.926 4.878zm6.261-12h-2.282v-6.8h2.282zm0-13.6h-2.282v-6.8h2.282zm0-13.6h-2.282v-6.8h2.282zm0-13.6h-2.282v-6.8h2.282zm-2.524-13.213a4.865 4.865 0 0 0-4.041-3.3l.262-2.266a7.152 7.152 0 0 1 5.944 4.846zM546 98.1h-6.8v-2.279h6.8zm-13.606 0h-6.8v-2.279h6.8zm-13.6 0h-6.8v-2.279h6.8zm-13.6 0h-6.8v-2.279h6.8zm-13.6 0h-6.8v-2.279h6.8z" class="cls-6" transform="translate(-484.784 -95.821)"/>
+                        </g>
+                        <g id="Groupe_3494" transform="translate(0 69.41)">
+                            <path id="Rectangle_17809" d="M0 0H3.423V2.282H0z" class="cls-6"/>
+                        </g>
+                    </g>
+                </g>
+                <path id="Tracé_3753" d="M543.718 124.322h-35.262a7.43 7.43 0 0 1-7.429-7.432v-2.213a7.43 7.43 0 0 1 7.429-7.429h35.262z" class="cls-6" transform="translate(-453.74 -75.875)"/>
+                <path id="Tracé_3754" d="M4.348 0A4.348 4.348 0 1 1 0 4.348 4.348 4.348 0 0 1 4.348 0z" class="cls-2" transform="translate(54.717 35.562)"/>
+            </g>
+        </g>
+    </g>
+</svg>

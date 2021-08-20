@@ -1,0 +1,174 @@
+.topS2{
+    text-align: center;
+    margin-bottom: 10px;
+    animation: leftmoveS2 1s ;
+    -webkit-animation: leftmoveS2 1s ;
+}
+.titleS2{
+    color: #02044f;  
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    font-family: var(--Fredoka);
+}
+.paragS2{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.25;
+    letter-spacing: 0.75px;
+    color: #7f7b88;
+    font-family:var(--Roboto);
+    text-align: center;
+}
+.wrapperS2{
+    display: grid;
+    grid-template-columns: 28% 28% 30%;
+    gap:5%;
+    text-align: center;
+    animation: rightmoveS2 1s ;
+    -webkit-animation: rightmoveS2 1s ;
+    margin-left: 5%;
+}
+.div1Img {
+    width: 163px;
+    height: 163px;
+}
+.div2Img{
+    width: 120px;
+    height: 120px; 
+    margin: 21px 0;
+}
+.div3Img{
+    width: 123px;
+    height: 123px;
+    margin:20px 0;
+}
+.sousTitle{
+    color: #02044f;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: 0.48px;
+    font-family: var(--Fredoka);
+    margin-top: -40px;
+}
+.divpS2 {
+    color: #355b97;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.56px;
+    text-align: center;
+    font-family:var(--Roboto);
+    font-size: 14px;
+    line-height: 1.67;
+    letter-spacing: 0.56px;
+    margin-top: -20px;
+ }
+.bottomS2 {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.56px;
+    color: #02044f;
+    position: relative;
+    text-align: center;
+    margin-top:20px ;
+    margin-left: 50px;
+}
+.bottomimgS2 {
+    width: 70.8px;
+    height: 69.5px;
+    position: absolute;
+    margin-right: 200px;
+    margin-left: -80px;
+    margin-top: -20px;
+}
+.bottomspanS2 {
+    font-family:var(--Roboto);
+    font-size: 14px;
+    line-height: 1.67;
+    letter-spacing: 0.56px;
+    color: #03084E;
+}
+.buttonS2{
+    width: 171px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #99c2ec;
+    font-family:var(--Roboto);
+    animation: leftmoveS2 1s ;
+    -webkit-animation: leftmoveS2 1s ;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.bottomS2 {
+    animation: topmoveS2 1s ;
+    -webkit-animation: topmoveS2 1s ;
+}
+.mainS2{
+    background-color: rgba(8, 33, 92, 0.03) ;
+    margin:2% 1% 1% 3%;
+    padding-bottom:2% ;
+  }
+  /* -------------------- right button ---------------------  */
+  .btnS2 {  
+    text-align: center;
+  }
+  .btnS2ul { 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 34%;
+   }
+  .btnS2li { 
+   list-style: none;
+   margin-top: 20px;
+  }
+  .S2{
+    display: grid;
+    grid-template-columns: 96% 2%;
+  }
+    /* -------------------- right button ---------------------  */
+@keyframes leftmoveS2 {
+        from {}
+        to { transform: translateX(100px); -webkit-transform: translateX(100px); -moz-transform: translateX(100px); -ms-transform: translateX(100px); -o-transform: translateX(100px); }
+    }
+@keyframes rightmoveS2 {
+        from {}
+        to { transform: translateX(-2%); -webkit-transform: translateX(-2%); -moz-transform: translateX(-2%); -ms-transform: translateX(-2%); -o-transform: translateX(-2%); }
+    }
+@keyframes topmoveS2 {
+        from {}
+        to { transform: translatey(10px); -webkit-transform: translatey(10px); -moz-transform: translatey(10px); -ms-transform: translatey(10px); -o-transform: translatey(10px); }
+    }
+@media screen and (max-width:960px) {
+        .wrapperS2{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            gap:0%;
+            margin-left: 5%;
+            margin-bottom: 10%;
+            padding: 0 4% 1%;
+        }
+        .div3S2{
+            margin-left: 25%;
+            width: 150%;
+        }
+    }
+@media screen and (max-width:660px) {
+        .wrapperS2{
+            display: grid;
+            grid-template-columns: 1fr ;
+            gap:0%;
+            margin-left: 0%;
+            margin-bottom: 5%;
+            padding: 0 10% 1%;
+        }
+        .div3S2{
+            margin-left: 0%;
+            width: 100%;
+        }
+    }

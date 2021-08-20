@@ -1,0 +1,184 @@
+.mainS3{
+    background-color: rgba(8, 33, 92, 0.03) ;
+    margin:2% 1% 1% 3%;
+    padding-bottom:0% ;
+  }
+.s3top{
+    text-align: center;
+    animation: topmoveS3 1s ;
+    -webkit-animation: topmoveS3 1s ;
+}
+.h1S3{
+    color: #02044f;   
+    padding-top: 24px;
+    font-family:var(--Fredoka);
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+}
+.paragS3 {
+    color: #7f7b88;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.75px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    font-family: var(--Roboto);
+    text-align: center;
+}
+.s3warapper{
+    display: grid;
+    grid-template-columns: 25% 32% 30%;
+    gap:5%;
+    animation: rightmoveS3 1s ;
+    -webkit-animation: rightmoveS3 1s ;
+    margin-left: 5%;
+}
+.img1S3{
+    width: 14px;
+    height: 14px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.p1S3 {
+    margin-top: 30px;
+    color: #7f7b88;
+    font-size: 16px;
+    line-height: 1.67;
+    letter-spacing: 0.56px;
+    font-family: var(--Roboto);
+}
+ .p2S3 ,.p3S3 {
+    color: #355b97;
+    font-size: 16px;
+    font-family:var(--Fredoka);
+    line-height: 1.67;
+}
+.p3S3{
+    font-size: 20px;
+}
+.rectangleS3 {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color:white ;
+    margin-top: 10px;
+}
+.spanS3 {
+  width: 113px;
+  height: 16px;
+  margin: 2.5px 0 0 18.3px;
+  font-family:var(--Roboto);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.44px;
+  color: #03084E;
+}
+ .p4S3 {
+    color: #7f7b88;
+    font-family: var(--Roboto);
+    font-size: 16px;
+    line-height: 1.67;
+    margin-top: 10px;
+}
+.p5S3{
+    font-family: var(--Fredoka);
+    font-size: 16px;
+    line-height: 1.67;
+    text-align: left;
+    color: #355B97;
+}
+.imgS3{
+    width: 120%;
+    height: 460px;
+    margin-left: -12%;
+    margin-top: -5%;
+}
+.btn1S3 , .btn2S3{
+    margin-top: 30px;
+    width: 171px;
+    height: 50px;
+    padding: 1px 12px;
+    border-radius: 5px;
+    background-color: #355b97;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: 0;
+}
+.s3div1{
+    animation: leftmoveS3 1s ;
+    -webkit-animation: leftmoveS3 1s ;
+}
+.s3div3{
+    animation: rightmove 1s ;
+    -webkit-animation: rightmove 1s ;
+}
+.btn2S3{
+    margin-top: 50px;
+    width: 60%;
+}
+  /* -------------------- right button ---------------------  */
+  .btnS3 {  
+    text-align: center;
+  }
+  .btnS3ul { 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 34%;
+   }
+  .btnS3li { 
+   list-style: none;
+   margin-top: 20px;
+  }
+  .S3{
+    display: grid;
+    grid-template-columns: 96% 2%;
+  }
+    /* -------------------- right button ---------------------  */
+@keyframes leftmoveS3 {
+    from { transform:translateX(-50px); -webkit-transform:translateX(-50px); -moz-transform:translateX(-50px); -ms-transform:translateX(-50px); -o-transform:translateX(-50px); }
+    to { transform: translateX(50px); -webkit-transform: translateX(50px); -moz-transform: translateX(50px); -ms-transform: translateX(50px); -o-transform: translateX(50px); }
+  }
+  @keyframes rightmoveS3 {
+    from { transform:translateX(10px); -webkit-transform:translateX(10px); -moz-transform:translateX(10px); -ms-transform:translateX(10px); -o-transform:translateX(10px); }
+    to { transform: translateX(-30px); -webkit-transform: translateX(-30px); -moz-transform: translateX(-30px); -ms-transform: translateX(-30px); -o-transform: translateX(-30px); }
+  }
+  @keyframes topmoveS3 {
+    from { transform:translatey(-50px) ; -webkit-transform:translatey(-50px) ; -moz-transform:translatey(-50px) ; -ms-transform:translatey(-50px) ; -o-transform:translatey(-50px) ; }
+    to { transform: translatey(20px); -webkit-transform: translatey(20px); -moz-transform: translatey(20px); -ms-transform: translatey(20px); -o-transform: translatey(20px); }
+  }
+
+  @media screen and (max-width:960px) {
+  .s3warapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 39% 25%;
+    margin-left: 0%;
+    text-align: center;
+}
+.mainS3{
+    padding-bottom: 0%;
+}
+.imgS3{
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 90%;
+    margin-left: 0;
+}
+.btn1S3 , .btn2S3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.p5S3{
+    text-align: center;
+}
+.rectangleS3{
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+  }

@@ -1,0 +1,120 @@
+.containerTutor{
+    padding:2% 25%;
+}
+.topTutor{
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+    align-items: center;
+    padding: 2% 25% ;
+    margin-top: 20px;
+}
+.ulTutor{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.actTutor{
+    color: #99C2EC;
+    font: normal normal normal 14px var(--Roboto);
+    letter-spacing: 0.28px;
+    text-align: center;
+}
+.liTutor{
+    font: normal normal normal 14px var(--Roboto);
+    letter-spacing: 0.28px;
+    color: #7F7B88;
+    text-align: center;
+}
+.centerBack{
+    text-align: center;
+}
+.centerbackp{
+    letter-spacing: 0.63px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Roboto);
+    color: #02044F;
+}
+.centerbackp2{
+    color: #7F7B88;
+    font-size: 18px ;
+    font-family: var(--Roboto);
+    letter-spacing: 0.63px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.checkimg{
+    margin-left: -20px;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+}
+.formBackground{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ .selectBack {
+    width: 96%;
+    height: 50px;
+    border: 1px solid #C3C3C4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: #7F7B88;
+    font: normal normal normal 14px var(--Roboto);
+    font-weight: 500;
+    letter-spacing: 0.44px;
+}
+.selectBack:hover {
+    border: 2px solid  #355B97;
+}
+.bottomBack{
+ margin-top: 20px;
+ text-align: center;
+}
+.buttonBack1 ,.buttonBack2{
+    font-size: 15px;
+    font-family: var(--Roboto);
+    border: 1px solid #C3C3C4;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 151px;
+    height: 45px;
+    border-radius: 5px;
+}
+.buttonBack1{
+    background-color: white;
+    color: #7F7B88;
+    margin-right: 10px;
+}
+.buttonBack2{
+    background: #C3C3C4 0% 0% no-repeat padding-box;
+    color: white;
+}
+.buttonBack2:active, .buttonBack2:hover{
+    background: #355B97 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.add{
+    text-align: center;
+    font: normal normal bold 18px var(--Roboto);
+    letter-spacing: 0.5px;
+    color: #02044F;
+    margin: 20px 0 ;
+}
+
+@media screen and (max-width:960px) {
+    .topTutor{
+        background: #F5F5FB 0% 0% no-repeat padding-box;
+        align-items: center;
+        padding: 2% 9% ;
+    }
+    .centerformTutor{
+        margin: 15px 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .containerTutor{
+        padding:2% 9%;
+    }
+}

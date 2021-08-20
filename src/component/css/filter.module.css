@@ -1,0 +1,129 @@
+.ligne1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+.ligne1 select , .rectfilter , .search{
+    width: 98%;
+}
+.inputsearchfil{
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    padding: 0 50px;
+    font: normal normal normal 16px var(--Roboto);
+    margin-left: -27px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.searchimg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 0px;
+    top: -3px;
+}
+.rectfilter img{
+    width: 35px;
+    height: 32px;
+    left: 50px;
+    top: 12px;
+    position: relative;
+}
+.rectfilter span{
+    border-radius: 9px;
+    font: normal normal normal 14px var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+    position: relative;
+    top: 15px;
+}
+.rectfilter{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border: none;
+    padding: 0 10px;
+    border-radius: 9px;
+    position: relative;
+    margin-left: -34px;
+}
+.imgfilter{
+    cursor: pointer;
+}
+
+.filter{
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    display: none;
+    margin-bottom: 20px;
+}
+.filter select{
+    height: 50px;
+    width: 130%;
+}
+
+.selectfilter{
+    height: 50px;
+    border: none;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 9px;
+    font: normal normal normal 14px var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+}
+
+option{
+    font: normal normal normal 16px var(--Roboto);
+}
+option:hover{
+    background-color: #C3C3C4;
+}
+.buttonfilter{
+    background-color: #99C2EC;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--Roboto);
+    margin-left: -20px;
+}
+.buttonfilter:hover{
+    background-color: #FEC62E;
+}
+
+@media screen and (max-width:960px) {
+        .ligne1{
+            display: grid;
+            grid-template-columns: 45% 45% ;
+            grid-gap: 8px;
+        }
+        .rectfilter , .ligne1 select , .buttonfilter{
+            margin-left: 0;
+        }
+     .fiedls select{
+         display: block;
+     }
+
+    .ligne1 .buttonfilter{
+        margin-top: 0px;
+    }
+ 
+}
+
+@media screen and (max-width:1060px) {
+    .ligne1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 8px;
+    }
+}

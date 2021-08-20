@@ -1,0 +1,65 @@
+
+.icon{
+  display: none;
+}
+.header{   
+  margin-left: 4%;
+  display: flex ;
+}
+.logoimg{
+  position: relative;
+  width: 80%;
+  top: 12px;
+}
+.nav{
+  margin-left:2%;
+  margin-top: 1.5%; 
+}
+.a{
+    text-decoration: none;
+    color:#02044f ;  
+    font-weight:normal; 
+    font-family: var(--Roboto);
+    font-size: 18px;
+    margin-left: 30px;
+  }
+.btna{
+     color: white;
+     font-size: 13px;
+     text-decoration: none;
+  }
+  .social1{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.social2{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.firstbutton{
+  background-color: #355b97;
+  margin-right: 10px;
+  margin-left: 250PX;
+  width: 190PX;
+  height: 45px;
+  font-size: 14px;
+  margin-top: -7px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.secondButton{
+  background-color:	#99c2ec;
+  width: 160PX;
+  height: 45px;
+  font-size: 14px;
+  margin-top: -7px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.selected{
+  background: green;
+  padding: 10px;
+  font-size: 50px;
+}

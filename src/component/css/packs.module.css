@@ -1,0 +1,30 @@
+.mainpacks {
+    background-color:#F5F5FB;
+    padding:80px 60px;
+    height:100vh;
+    margin: 0 60px;
+}
+.conatinerPacks{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap:2% ;
+    margin-top: 40px;
+}
+.packs{
+    background-color: white;
+    border-radius: 9px;
+    padding: 40px 70px;
+    text-align: center;
+}
+.imgGrand{
+    width: 55px;
+}
+.almisp{
+    color:#02044F;
+    font-family:var(--Fredoka) ;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.imgpetit{
+    width: 20px;
+}

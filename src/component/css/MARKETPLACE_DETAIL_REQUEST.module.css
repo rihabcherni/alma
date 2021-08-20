@@ -1,0 +1,209 @@
+.active{
+    background-color: var(--blueColor1);
+    border-radius: 50%!important;
+    width: 8px!important;
+    height: 8px!important;
+    margin-top: 7px!important;
+    display: inline-block;
+}
+hr{
+    position: relative;
+    border: 2px solid #F5F5FB;
+  }
+.container{
+    margin: 30px 0% ;
+}
+.back{
+    margin: 30px 170px ;
+}
+.back img{
+    transform: rotate(180deg);
+}
+.back span{
+    font-family: var(--Roboto);
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    color: #02044F;
+    margin-left: 10px;
+}
+.rectangle1{
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+    padding: 20px 20%;
+}
+.rectangle1 .container{
+    display: grid;
+    grid-template-columns:55% 45%;
+    justify-content: space-between;
+    grid-gap: 10%;
+}
+.container1{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    grid-gap:3%;
+    margin: 0 12% ;
+    background-color: aqua;
+}
+
+.left p{
+    font-family: var(--Fredoka);
+    letter-spacing: 0.78px;
+    font-size: 25px;
+    color: #02044F;
+}
+.star{
+    margin-top: 20px;
+}
+.right P{
+    font-family: var(--Roboto);
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    color: #375C95;
+    opacity: 1;
+}
+.right button{
+    margin-top: 15px;
+    width: 75%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--Roboto);
+    color: rgb(255, 255, 255);
+    background-color: #355B97;
+    border-radius: 5px;
+    border: none;
+    }
+.rect-bottom{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+}
+.rect-bottom .top{
+    padding: 4% 5%;
+    display: flex;
+    flex-direction: row;
+    font: normal normal bold 14px var(--Roboto);
+    font-weight: 600;
+}
+.rect-bottom .top span:nth-child(1){
+    flex-basis: 40%;
+}
+.rect-bottom .top span:nth-child(2){
+    flex-basis: 16%;
+}
+.rect-bottom .top span:nth-child(3){
+    flex-basis: 8%;
+}
+.rect-bottom .top span:nth-child(4){
+    flex-basis: 40%;
+}
+.rect-bottom span:first-of-type{
+    font-size: 18px;
+    letter-spacing: 0.56px;
+    color: #99C2EC;
+}
+.rect-bottom #school{
+    letter-spacing: 0.28px;
+    position: relative;
+    bottom: 10px;
+    color: #02044F;
+    left: 7%;
+    font: normal normal bold 14px var(--Roboto);
+
+}
+.rect-bottom span:nth-child(2){
+    letter-spacing: 0.28px;
+    color: #02044F;
+}
+.rect-bottom span:nth-child(3) ,.rect-bottom span:last-of-type{
+    letter-spacing: 0.28px;
+    color: #355B97;
+}
+.rect-bottom .parg{
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+    padding: 0 7% 5%;
+    font-size: 14px;
+    line-height: 2em;
+}
+.rectangle2 , .review{
+    margin: 0 18% ;
+}
+.rectangle2 p:first-of-type{
+    font: normal normal normal 20px var(--Fredoka);
+    letter-spacing: 0.63px;
+    margin-left: 40px;
+}
+.rectangle2 p:first-of-type span{
+    color: #355B97;
+}
+.review .rev{
+    margin-left: 40px;
+    margin-top: 50px;
+    font: normal normal normal 22px var(--Fredoka);
+    letter-spacing: 0.78px;
+    color: #02044F;
+    margin-bottom: 50px;
+}
+.pseudo-user{
+    margin: 0 4%;
+    height: 125px;
+    border: 1px solid #C3C3C4;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 2% 5%;
+    font: normal normal bold 18px var(--Roboto);
+    line-height: 1.5em;
+}
+
+.pseudo-user p:first-of-type{
+    letter-spacing: 0.56px;
+    color: #99C2EC;
+}
+.pseudo-user p:nth-child(2){
+    font: 14px;
+    letter-spacing: 0.28px;
+    color: #355B97;
+}
+.pseudo-user p:nth-child(3){
+    font-size:  14px;
+    letter-spacing: 0.5px;
+    color: #7F7B88;
+    font-weight: 600;
+}
+@media screen and (max-width:960px) {
+    .rectangle1 .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+   }
+   .rectangle1{
+    padding: 20px 10%;
+}
+   .rect-bottom .top{
+    padding: 4% 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font: normal normal bold 14px var(--Roboto);
+    font-weight: 600;
+    text-align: center;
+} 
+    .top span:nth-child(3) , .top span:nth-child(4){
+        margin-top: 40px;
+    }
+    .top span:nth-child(4){
+        margin-top: 20px;
+    }
+    .rectangle2 , .review{
+        text-align: center;
+        margin: 0;
+    }
+    .pseudo-user{
+        margin: 0 4%;
+        margin: 0 10%;
+        border: 1px solid #C3C3C4;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        padding: 2% 5%;
+        font: normal normal bold 18px var(--Roboto);
+        line-height: 1.5em;
+    }
+}

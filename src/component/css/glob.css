@@ -1,0 +1,58 @@
+:root{
+    --Fredoka: 'Fredoka One', cursive;
+    --Roboto: 'Roboto', sans-serif;
+    --Robotomeduim: 'Robotomeduim', sans-serif;
+
+    --blueColor1:#99c2ec;
+    --blueColor2:#355B97;
+    --bluecolor3:#02044F; 
+
+    --maincolor:#F5F5FB;
+    --white:white;
+    --gris1:#C3C3C4;
+    --gris2:#7F7B88;  
+    --rectcolor:#FEFEFF ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'Robotomeduim';
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'FredokaOne';
+    src: url(../fonts/FredokaOne-Regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+html, body{
+    background-color: var(--white);
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+ul {
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}

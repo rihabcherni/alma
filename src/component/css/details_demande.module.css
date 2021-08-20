@@ -1,0 +1,290 @@
+.active{
+    background-color: var(--blueColor1);
+    border-radius: 50%!important;
+    width: 8px!important;
+    height: 8px!important;
+    margin-top: 7px!important;
+    display: inline-block;
+}
+.hrDet{
+    position: relative;
+    border: 2px solid #F5F5FB;
+  }
+.container{
+    margin: 30px auto ;
+    padding: 20px 17%;
+}
+
+.wrapperDet{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 1fr; 
+}
+.leftDet{
+    background-color: #F5F5FB;
+    height: 100%;
+    padding: 5%; 
+}
+.rightDet{
+    background-color: white;
+}
+.requestDet{
+    display: grid;
+    grid-template-columns: 10% 52% 40%;
+    border: solid 1px #7F7B88;
+    border-radius: 8px;
+    padding: 5% 3%;
+    background-color: #F5F5FB;
+}
+.requestDetBlanc{
+    display: grid;
+    grid-template-columns: 10% 52% 40%;
+    border: solid 1px #7F7B88;
+    border-radius: 8px;
+    padding: 5% 3%;
+    background-color: white;
+    border: none;
+}
+.avatarDet{
+    padding: 7% 0;
+}
+.col2pDet p:nth-child(1){
+    font: normal normal bold 14px var(--Roboto);
+    letter-spacing: 0.5px;
+    color: #02044F;
+    margin-bottom: 10px ;
+}
+.col2pDet p:nth-child(2){
+    font: normal normal bold 14px var(--Roboto);
+    letter-spacing: 0.38px;
+    color: #99C2EC;
+    margin-bottom: 10px ;
+}
+.spanDet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: normal normal bold 15px var(--Roboto);
+    letter-spacing: 0.63px;
+    color: #355B97;
+}
+.questDet{
+    font: normal normal bold 15px var(--Roboto);
+    letter-spacing: 0.63px;
+    color: #355B97;
+}
+.questionDet{    
+        font: normal normal bold 15px var(--Roboto);
+        letter-spacing: 0.5px;
+        color: #02044F;
+        margin-bottom: 10px ;
+}
+.col3Det{
+   padding: 50% 25%;
+   margin-left: 10%;
+   border-radius: 9px;
+   border:   2px #7F7B88;
+   border-style: dashed;
+   text-align: center;
+}
+ .col2Dethr{
+    position: relative;
+    border: 0.2px solid #7F7B88;
+    width: 102%;
+}
+.question2Det{
+    font: normal normal normal 14px var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+    width: 90%;
+}
+figcaption{
+    margin-top: 20px;
+    font: normal normal normal 14px var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #7F7B88;
+}
+span img{
+    position: relative;
+    top: 5px;
+}
+.spanDet .langDet{
+    position: relative;
+    top: 5px;
+}
+/*----------------------------      right     ------------------------------------*/
+.rightDet{
+    padding: 5%;
+    border-top:solid 5px #F5F5FB;
+}
+.ligne1Det{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ligne1Det p{
+    font: normal normal normal 25px var(--Fredoka);
+    letter-spacing: 0.5px;
+    color: #02044F;    
+}
+.ligne2Det{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr;
+}
+.ligne2Det p:nth-child(1) {
+    font: normal normal bold 15px var(--Roboto);
+    letter-spacing: 0.5px;
+    color: #02044F;  
+}
+.ligne2Det p:nth-child(2){
+    font: normal normal bold 14px var(--Roboto);
+    letter-spacing: 0.38px;
+    color: #99C2EC;
+    margin-top: 10px ;
+}
+.ligne2Det .spanDet span:nth-child(2){
+    position: relative;
+    right: 40%;
+}
+.ligne2Det .col2RightDet{
+    margin-left: 5%;
+}
+.ligne2Det  .avatar2Det img{
+ width: 45px;
+ height: 45px;
+}
+.rightDethr{
+    margin: 10px 0; 
+    border: 0.2px solid #7F7B88;
+}
+.paragDet{
+    padding: 2% 0 2% 10%;
+    
+}
+.download{
+    background-color: #F5F5FB;
+    padding: 3% 10%;
+    border-radius: 5px;
+    text-align: center;
+}
+.downloadimg{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+.downloadlink{
+    font: normal normal bold 14px var(--Roboto);
+    color: #355B97;
+    text-decoration: underline;
+}
+.btnDet{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.btnDet button{
+    width: 32%;
+    height: 40px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font: normal normal bold 12px var(--Roboto);
+
+}
+.btnDet button:first-child{
+    background-color: #355B97;
+}
+.btnDet button:nth-child(2){
+    background-color: #CE2048;
+}
+.hrR{
+    background-color:#F5F5FB;
+    position: relative;
+    height: 5px;
+    width: 112%;
+    margin-left: -30px;
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+@media screen and (max-width:960px) {
+.wrapperDet{
+        display: grid;
+        grid-template-columns: 1fr; 
+}
+.leftDet{
+        background-color: #F5F5FB;
+        height: 100%;
+        padding: 5%; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        text-align: center;
+        
+}
+.requestDet{
+        display: flex;
+        flex-direction: column;
+        border: solid 1px #7F7B88;
+        border-radius: 8px;
+        padding: 5%;
+        justify-content: center;   
+}
+.requestDetBlanc{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #7F7B88;
+    border-radius: 8px;
+    padding: 5%;
+    justify-content: center;   
+}
+.avatarDet{
+    text-align: center; 
+    padding: 0 0 2%;  
+}
+.col2pDet {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+
+}
+ .col2pDet p:nth-child(2) {
+     margin-left: 30%;
+}
+ .questDet{
+    text-align: center;
+}
+.col3Det{
+    padding: 25% 25%;
+    margin-left: 0;
+    border-radius: 9px;
+    border:   2px #7F7B88;
+    border-style: dashed;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .hrR{
+    margin-top: 7%;
+    margin-bottom: 7%;
+ }
+}
+@media screen and (max-width:600px) {
+    .leftDet{
+        margin-right: 7px;
+    }
+    .downloadimg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .download span{
+        
+        display: block;
+    }
+    .downloadimg img{
+        margin-top: 10px;
+    }
+
+}

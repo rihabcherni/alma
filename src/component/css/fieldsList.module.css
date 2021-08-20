@@ -1,0 +1,72 @@
+.leftDem{
+    background-color: white;
+    height: 100vh;
+    padding:2% 8% 2% 15%; 
+}
+.ul ,.leftDem p{
+    margin-left: 50px;
+}
+.ul{
+    display: block;
+}
+.li{
+    display: block !important;
+    color:#355B97;
+    font-family: var(--Roboto);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display:flex !important;
+    flex-direction: row;
+}
+
+.leftDem p{
+    color: #03084E;
+    font-family: var(--Fredoka);
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 30px;
+ }
+ 
+ .li:active{
+     content: "";
+     font-weight: 700;
+     color: #03084E;
+    }
+    .fieldselect select{
+        margin-bottom: 20px;
+        color: #03084E;
+        font-family: var(--Roboto);
+        font-size: 20px;
+        display: none;
+    }
+    .fieldselect select option{
+        font-weight: 700;
+        color: #03084E;
+    }
+    .fields{
+        flex-basis: 80%;
+    }
+    .nbr{
+        flex-basis: 20%;
+    }
+    @media screen and (max-width:660px) {
+ .leftDem{
+    display: none;
+ }
+ .fieldselect select{
+    display: block;
+}
+.filter select{
+   height: 50px;
+   width: 100%;
+}
+}
+@media screen and (max-width:960px) {
+    .leftDem{
+       display: none;
+    }
+    .fieldselect select{
+        display: block;
+    }
+   }

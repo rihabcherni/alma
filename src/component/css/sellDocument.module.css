@@ -1,0 +1,250 @@
+.mainsell{
+    background-color: #F5F5FB;
+    padding: 30px 0%;
+    font-family: var(--Roboto);
+}
+/*---------------------top ------------------------*/
+.topsell{
+    text-align: center;
+    color: var(--bluecolor3);
+}
+.h1sell{
+    position: relative;
+    font: normal normal normal 25px var(--Fredoka);
+    letter-spacing: 0.78px;
+}
+.psell{
+    position: relative;
+    font: normal normal  20px var(--Robotomeduim);
+    letter-spacing: 0.63px;
+}
+/*----------------end of top ------------------------*/
+/*---------------------center ------------------------*/
+.centersell{
+    display: grid;
+    grid-template-columns: 38% 65%;
+    gap: 2%;
+    margin-top: 39px;
+    padding: 0 20%;
+}
+.leftsell{
+    display: flex;
+    flex-direction: column;
+}
+.rightsell{
+    display: flex;
+    flex-direction: column;
+}
+.rectsellimg{
+    position: relative;
+    width: 85px;
+    height: 70px;
+    top: 71.18px;
+}
+.rectsellp2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -80px;
+    font-size: 14px;
+    color: var(--gris1);
+    font-family: var(--Roboto);
+  }
+.rectsell{
+    height: 393px;
+    background: #FEFEFF 0% 0% no-repeat padding-box;
+    border: 1px dashed #7F7B88;
+    border-radius: 5px;
+    text-align: center;
+}
+.rectsell:hover{
+    border: 2px dashed var(--blueColor1);
+}
+.rectsellbuttton{
+    width: 190px;
+    height: 50px;
+    background-color: var(--blueColor1);
+    border: none;
+    border-radius:5px ;
+    color: var(--white);
+    cursor: pointer;
+    margin-top: 120px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.rectsellbuttton:hover{
+    background-color: #355B97;
+}
+.inputselltext1:hover , .inputselltext2:hover, .textareasell1:hover , .textareasell2:hover{
+    border:var(--blueColor2) 2px  solid  !important; 
+}
+.rectsellp1{
+    color: var(--blueColor2);
+    font-family: var(--Roboto);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -35px;
+}
+.rectsellspan{
+    position: relative;
+    top: -35px;
+}
+.inputselltext1 , .inputselltext2 ,.textareasell1 , .textareasell2{
+    background: var(--white);
+    border: 1px solid #C3C3C4;
+    border-radius: 7px;
+    color: #7F7B88;
+    font-size: 14px;
+}
+.inputfile{
+    opacity: 0;
+    cursor: pointer;
+    width: 160px;
+}
+.selectsellleft{
+    height: 51px;
+    margin-bottom: 20px;
+    padding: 16px 20px;
+}
+.textareasell1 , .textareasell2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 27px 0 0 20px;
+    resize: none;
+}
+.textareasell1{
+    position: relative;
+    height: 75px;
+    background: #FEFEFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3C3C4;
+    border-radius: 4px;
+    opacity: 1;
+}
+.textareasell2{
+    position: relative;
+    height: 160px;
+    background: #FEFEFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3C3C4;
+    border-radius: 4px;
+}
+option{
+   font-family: var(--Roboto);
+   font-size: 18px;
+}
+.inputselltext1 , .inputselltext2{
+    position: relative;
+    height: 55px;
+    padding: 15px;  
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0;
+}
+.rect2rightsell{
+    display: grid;
+    grid-template-columns: repeat(2 , 49%);
+    gap: 2%;
+}
+.selectsellright{
+    position: relative;
+    height: 51px;
+    margin: 20px 0 0 0;  
+    padding: 15px;
+}
+.rect3rightsell{
+    display: grid;
+    grid-template-columns: repeat(2 , 49%);
+    gap: 2%;  
+}
+.bottomsell{
+    position: relative;
+    padding-top: 5%;
+    text-align: center;  
+}
+.bottomsellp {
+    color: var(--gris2);
+    font-family: var(--Roboto);
+    font-size: 16px;
+    display: inline;
+}
+.buttonsell1 , .buttonsell2{
+    position: relative;
+    top: 30px;
+    margin-bottom: 40px;
+    width: 170px;
+    height: 50px;
+    background-color: var(--blueColor1);
+    border: none;
+    border-radius:5px ;
+    color: var(--white);
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttonsell1{
+    background-color: transparent;
+    border:var(--gris2) solid 1px;
+    color: var(--gris2);
+    margin-right: 30px;
+}
+.buttonsell1:hover{
+    background-color: #d3d3e2;
+}
+.buttonsell2{
+    background-color: var(--gris1);
+    color: var(--white);
+}
+.buttonsell2:hover{
+    background-color: #355B97;
+}
+.inputcheckbox{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    right: 8px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:960px) {
+     .centersell{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .mainsell{
+        padding: 30px 8%;
+    }
+    .inputselltext1 , .inputselltext2{
+        width:100%;
+        position:relative;
+    }
+   .selectsell {
+        width:120%;
+    }  
+    .rect2sell{
+        display:flex;
+        flex-direction:column;
+    }
+    .rightsell{
+        margin-left:20px;
+    }
+  }
+
+
+
+  .PriceRange , .DeadlineRequest{
+    height: 67px;
+    padding: 19px 86.5px 20.5px 25px;
+    border-radius: 5px;
+    border: solid 1px #c3c3c4;
+    background-color: #fefeff;
+    margin-top: 10px;
+    color: #7f7b88;
+    font-family: var(--Roboto);
+    font-size: 14px;
+    line-height: 1.93;
+    letter-spacing: 0.44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

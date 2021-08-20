@@ -1,0 +1,46 @@
+ .requestdiv {
+    background-color: var(--white);
+    justify-content: space-between;
+    padding: 30px 35px ;
+    border-radius: 9px;
+    font-family: var(--Roboto);
+}
+.requestp1 {
+    color: var(--blueColor1);
+    font-weight: 600;
+    font-size: 20px;
+}
+.requestp2{
+    color: var(--bluecolor3);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.requestp3 {
+    color: #7F7B88;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.requestspan1{
+    font-size:14px/22px;
+    font-family: var(--Roboto);
+    letter-spacing: 0.44px;
+    color: #355B97;
+    font-weight: 600;
+}
+.requestspan2{
+    margin-left: 10px;
+    font: normal normal bold 18px/22px var(--Roboto);
+    letter-spacing: 0.63px;
+    color: #02044F;
+}
+.botrequest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.starrequest img {
+    width: 20px;
+}
