@@ -9,8 +9,7 @@ class AccueilTuteur extends Component{
   render(){
 
     return (   
-        <Fragment>
-          
+        <Fragment>    
           <main className={HomeCSS.mainhome}>
                 <Accueil/>
                 <div className={HomeCSS.rightsection}>

@@ -5,9 +5,12 @@ import ComposeHeader from "./communComponent/composeheader";
 import HomeCSS from "../component/css/home.module.css"
 import SyncAltIcon from '@material-ui/icons/SyncAlt';
 import walletCSS from '../component/css/wallet.module.css'
-import swapGagne from '../component/images/swapgagne.PNG'
-import swapLose from '../component/images/swapLose.PNG'
+import swapGagne from '../component/images/Groupe 3929.svg'
+import swapLose from '../component/images//Groupe 3935.svg'
 import { NavLink } from "react-router-dom";
+import packsCSS from '../component/css/packs.module.css'
+import almis from '../component/images/almis.svg'
+import { Link } from "react-router-dom";
 class Wallet extends Component{
     render(){  
      return (
@@ -17,15 +20,18 @@ class Wallet extends Component{
         <div style={{display:'grid', gridTemplateColumns:'70% 30%'}}>
             <div style={{backgroundColor:'var(--maincolor)', height:'170vh', padding:'40px 30px 0 12%'}}>
                 <p style={{color:'#02044F',fontFamily:'var(--Fredoka)', fontSize:'45px'}}>My wallet</p>
-              <div style={{display:'grid',gridTemplateColumns:'repeat(2, 40%)',gap:'2%', marginTop:'30px'}}>
+              <div style={{display:'grid',gridTemplateColumns:'repeat(2, 42%)',gap:'2%', marginTop:'30px'}}>
                                  
                    <div style={{backgroundColor:'white',borderRadius:"9px",padding:'40px 20px 30px 30px' }}>
-                        <p className={walletCSS.pblue2}>Earned Credit</p>
+                        <p className={walletCSS.pblue2}>Convertible Credits</p>
                         <div style={{display:"grid",marginBottom:'20px', gridTemplateColumns:"75% 25%"}}>
-                            <p style={{color:'#ffc600', fontSize:'30px', fontFamily:"var(--Fredoka)",marginTop:'25px'}}>300 Alm</p>
+                            <div>
+                                    <p style={{color:'#ffc600', fontSize:'30px', fontFamily:"var(--Fredoka)",marginTop:'25px'}}>300 Alm</p>
+                                    <p className={walletCSS.pblue4}>60 CHF</p>
+                            </div>
                             <Fab size="large" aria-label="swap"  style={{backgroundColor:'#355b97', color:'white', width:'65px', marginTop:'-10px', height:'65px'}}><SyncAltIcon /></Fab>
                         </div>
-                        <p className={walletCSS.pblue}>Vous pouvez demander un retarait pour pour votre credit gagné grace à la vente de documents ou le tutoring</p>
+                        <p className={walletCSS.pblue}>You can request a withdrawal of credits once your balance exceeds 100 Almees</p>
                    </div>
 
 
@@ -33,10 +39,10 @@ class Wallet extends Component{
                         <p style={{color:'#c3c3c4', fontFamily:'var(--Roboto)'}}>Purchased Credit</p>
                         <div style={{display:"grid",marginBottom:'20px', gridTemplateColumns:"75% 25%"}}>
                             <p style={{color:'#02044f', fontSize:'30px', fontFamily:"var(--Fredoka)",marginTop:'25px'}}>250 Alm</p>
-                            <Fab aria-label="add"  className={HomeCSS.addicon}><AddIcon /></Fab>
+                            <Link to='/packs'><Fab aria-label="add"  className={HomeCSS.addicon}><AddIcon /></Fab></Link>
                         </div>
                             
-                        <p className={walletCSS.pblue}>Ce credit ne peut etre consommé qu'au sein de la plateforme Alma.</p>
+                        <p className={walletCSS.pblue}>These credits can only be used within ALMA</p>
                    </div>
               </div> 
               <p style={{color:'#02044F',fontFamily:'var(--Fredoka)', fontSize:'25px',margin:'33px 0 20px'}}>Latest Transaction </p>
@@ -100,11 +106,23 @@ class Wallet extends Component{
                                     <p style={{fontFamily:'var(--Roboto)' ,fontSize:'12px'}}>My Ballance</p>
                                     <p style={{fontFamily:'var(--Fredoka)', fontSize:'30px'}}>550 Alm</p>
                                 </div>                    
-                                <Fab aria-label="add"  className={HomeCSS.addicon} style={{marginTop:'35px'}}><AddIcon/></Fab>
+                                <Link to='/packs'><Fab aria-label="add"  className={HomeCSS.addicon} style={{marginTop:'35px'}}><AddIcon/></Fab></Link>
                     </div>
                     <div style={{display:'flex', flexDirection:'row', justifyContent:'space-between',marginTop:'30px'}}>
                         <p className={walletCSS.pblue3} style={{color:'#02044F',fontSize:'22px'}}>Alma's packs</p>
                       <NavLink to='/packs'><p className={walletCSS.pblue3}  style={{marginTop:'8px',fontSize:'14px'}}>+ Discover more</p></NavLink>  
+                    </div>
+
+
+                    <div className={packsCSS.packswallet} style={{backgroundColor:'var(--maincolor)',marginTop:'70px'}}>
+                        <img src={almis} alt="" className={packsCSS.imgGrand}/>
+                        <p className={packsCSS.almisp}>60 Almees</p>
+                        <div style={{display:'flex', flexDirection:'row',marginBottom:'70px' ,marginLeft:'70px'}}>
+                        <img src={almis} alt="" className={packsCSS.imgpetit}/>
+                        <p className={packsCSS.almisp2} >13 CHF</p> 
+                        
+                        </div>
+                        <a href='/credit-Paiment-Packs'><button className={packsCSS.buttonselect}>SELECT</button></a> 
                     </div>
 
               </div> 

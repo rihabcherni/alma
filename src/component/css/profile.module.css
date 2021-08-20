@@ -1,0 +1,88 @@
+.edit{
+    text-align: center;
+    font: 16px/29px var(--Roboto) ;
+    letter-spacing: 0.32px;
+    color: #355B97;
+ }
+ .profileTitle{
+    font-size:28px;
+    font-family : var(--Fredoka);
+    color:#02044F;
+    margin:40px 0 ;
+ }
+ .mainprofile{
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+    box-shadow: 40px 0px 90px #08215C07;
+    margin: 44px 5%; 
+    padding: 3% 11%;
+ }
+ .maincenter{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    padding: 30px 50px;
+ }
+ .soustitle{
+    font: normal normal normal 26px/36px Fredoka One;
+    letter-spacing: 0.6px;
+    color: #355B97;
+ }
+ .formprofile input , .formprofile select{
+    background: #F5F5FB 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin: 0;
+    width: 95%;
+    border: none;
+    height: 50px;
+    padding: 0 10px;
+    color: #7F7B88;
+ }
+ .formprofile p{
+    font:  11px/24px var(--Roboto);
+    letter-spacing: 0.34px;
+    color: #7F7B88;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    margin-top: 20px;
+ }
+ .formmail{
+    font:  11px/24px var(--Roboto);
+    letter-spacing: 0.34px;
+    color: #7F7B88;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    margin-top: 20px;
+ }
+ .formprofile select{
+     margin-top: 45px;
+ }
+ .buttonProfile {
+text-align: center;}
+ .buttonProfile button{
+    width: 45%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 20%;
+}
+.buttonProfile button:nth-child(2){
+    background-color:#355b97;
+    margin-left: 2%;
+}
+.buttonProfile button:nth-child(1){
+    background-color:white;
+    color: #7F7B88;
+    border: #C3C3C4 1px solid;
+    margin-left: -2.5%;
+}
+.editbutton{
+    background: #355B97 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color:white;
+    width: 113px;
+    height: 50px;
+    margin: 0;
+    margin-top: 20%;
+    border: none;
+}

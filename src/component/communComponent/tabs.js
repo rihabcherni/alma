@@ -61,14 +61,14 @@ export default function NavTabs() {
   };
   return (
     <div >
-      <AppBar position="static" style={{backgroundColor:'#99c2ec', padding:'10px 35%'}}>
+      <AppBar position="static" style={{backgroundColor:'#99c2ec', padding:'10px 37%'}}>
       
         <Tabs 
           variant="fullWidth"
           value={value}
           onChange={handleChange}
           aria-label="nav tabs example"
-          indicatorColor="primary"
+          indicatorColor="white"
         >
           <LinkTab label="Documents" href="/drafts" {...a11yProps(0)} />
           <LinkTab label="Requests" href="/trash" {...a11yProps(1)} />

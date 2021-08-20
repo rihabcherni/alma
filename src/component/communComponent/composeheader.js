@@ -18,7 +18,7 @@ class ComposeHeader extends Component{
                      <ComposeHeader2 /> 
                 </div>
                 <div className={headCSS.icons3}>   
-                    <NavLink to="/user"><Avatars/> </NavLink> 
+                    <NavLink to="/Profile-SimpleUser"><Avatars/> </NavLink> 
                     <NavLink to="/wallet"><img src={Balance} alt='Balance' /></NavLink>
                     <NavLink to="/setting"><img src={parametre} alt='parametre'/></NavLink>
                     <NavLink to="/"><img src={sorte} alt='sorte' className="iconlast"/></NavLink>         

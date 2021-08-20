@@ -1,7 +1,6 @@
 import React , { Component} from "react";
 import { BrowserRouter as Router, Route, Switch , Redirect } from 'react-router-dom';
 import './component/css/glob.css';
-import TabsSell from "./component/selldocument/productrequest1"
 
 import Slide1  from "./component/LANDING PAGE/slide1";
 import Slide2  from "./component/LANDING PAGE/slide2";
@@ -46,6 +45,8 @@ import FaireDemande from './component/FaireDemande/FaireDemande'
 import Setting from './component/setting'
 import Packs from './component/packs'
 import Test from '../src/component/test'
+import ProfileSimpleUser from '../src/component/profilSimpleUser'
+import CreditPaimentPacks from '../src/component/packsPaiment'
 
 class App extends Component{
   render(){
@@ -60,14 +61,14 @@ class App extends Component{
                   <Route path="/slide3"  component={Slide3}/>
                   <Route path="/slide4"  component={Slide4}/>
 
-<Route path="/sellTabs" component={TabsSell}/>
-
                   <Route path="/Faq" component={Faq}/>
                   <Route path="/contact" component={Contact}/>
                   <Route path="/wallet" component={Wallet}/>
 
                   <Route path='/setting' component={Setting}/>
                   <Route path='/packs' component={Packs}/>
+                  <Route path='/credit-Paiment-Packs' component={CreditPaimentPacks}/>
+                  <Route path='/Profile-SimpleUser' component ={ProfileSimpleUser}/>
             {/*---------------------------------Become tutor ----------------------------- */}
                   <Route path="/BecomeTutor" component={BecomeTutorPersonelInofrmation}/>
                   <Route path="/BecomeTutorBackground" component={BecomeTutorBackground}/>
@@ -78,8 +79,7 @@ class App extends Component{
              <Route path="/inscr" component={Inscription}/>
                   <Route path="/forgetPASS" component={ForgetPASS}/>
                   <Route path="/sent-reset-password" component={Sentpsw}/>
-                  <Route path="/Reinitialiserpassword" component={Reinitialiser}/>     
-                  
+                  <Route path="/Reinitialiserpassword" component={Reinitialiser}/>                      
              {/* -------------------------------Faire Demande------------------------ */}
                   <Route path="/Make-request" component={FaireDemande}/>
                   <Route path="/rechargeCompte" component={RechargeCompte}/>

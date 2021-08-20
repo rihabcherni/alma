@@ -10,8 +10,8 @@ class ComposeHeader3 extends Component{
     render(){    
         return (
                 <div className={headCSS.icons3}>   
-                    <NavLink to="/user"><Avatars/> </NavLink> 
-                    <NavLink to="/wallet"><img src={Balance} alt='Balance' /></NavLink>
+                    <NavLink to="/Profile-SimpleUser"><Avatars/> </NavLink> 
+                    <NavLink to="/wallet"><img src={Balance} alt='Balance'/></NavLink>
                     <NavLink to="/setting"><img src={parametre} alt='parametre'/></NavLink>
                     <NavLink to="/"><img src={sorte} alt='sorte' className="iconlast"/></NavLink>         
                 </div>           

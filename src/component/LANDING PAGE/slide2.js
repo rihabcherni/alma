@@ -15,7 +15,7 @@ class Slide2 extends Component{
             var mybutton= document.getElementById('bsvt');
             setTimeout(function(){
                 mybutton.click();
-            },4000);
+            },3000);
         }   
         return (
         <div>

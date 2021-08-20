@@ -11,6 +11,7 @@ import Language from "../../communComponent/select/lang";
 import School from "../../communComponent/select/school";
 import filterCSS from '../../css/Marketplace.module.css'
 import imgfilter from '../../images/filters.PNG'
+import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({   
   search: {
     position: 'relative',
@@ -100,9 +101,9 @@ export default function FilterMarketplace() {
                     <div>
                             <button className={filterCSS.buttonmarket} onClick={()=>showHideDiv2('uploadbtn')}>UPLOAD DOCUMENTS</button>
                             <div class={filterCSS.uploadbtnmarket}  id="uploadbtn">
-                                <p>Document</p>
+                              <Link to='/SellDocument' style={{color:'white'}}><p>Document</p></Link>  
                                 <hr/>
-                                <p>Request</p>
+                                <Link to='/SellDocument' style={{color:'white'}}><p>Request</p></Link> 
                             </div>
                     </div>               
                 </div>

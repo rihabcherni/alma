@@ -10,11 +10,11 @@ class BackgroundADD extends Component{
     return (   
         <Fragment>
             <form action="" method="POST"  className={BackTutor.formBackground}>
-                      <div className={BackTutor.left}>
+                      <div style={{display:'grid', gridTemplateRows:'repeat(2 , 1fr)'}}>
                          <Fields/>
                          <School/>
                       </div>                  
-                      <div className={BackTutor.right}>
+                      <div style={{display:'grid', gridTemplateRows:'repeat(2 , 1fr)',marginLeft:'20px'}}>
                           <TypeDegree/>
                           <CustomizedSelects/>
 

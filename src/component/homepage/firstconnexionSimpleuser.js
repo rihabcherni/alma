@@ -17,7 +17,7 @@ class Homefirstconnexionusimpleuser extends Component{
                    <nav  className={headCSS.navcompheader}>
                       <ComposeHeader3/>
                     </nav>
-             <Avatar alt="Remy Sharp" src={avatar} className={HomefirstconnexionCSS.Avatarimg}/>
+             <Avatar alt="Remy Sharp" src={avatar} style={{width:'150px',height:'150px', marginLeft:'23%', marginBottom:'20px'}}/>
             <p className={HomefirstconnexionCSS.avatp}>Mon pseudo</p>
             <hr className={HomefirstconnexionCSS.hrligne}/>
             <div className={HomefirstconnexionCSS.firstrequest}>

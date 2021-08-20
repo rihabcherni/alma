@@ -8,7 +8,7 @@ import arrowimg from "../images/arrow.11d1fdff.svg";
 import imgreq from '../images/makeReqImg.7548c017.svg'
 import headCSS from '../css/composeheader.module.css'
 import search from '../images/Tracé 477.png'
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ComposeHeader1 from '../communComponent/compHeader1'
 import ComposeHeader2 from '../communComponent/compHeader2'
 
@@ -36,9 +36,11 @@ class Accueil extends Component{
                             <p className={HomeCSS.balanceprice}> 0 <img src={almisicon} alt="" style={{width:"20px"}}/></p>
                         </div>
                         <div>
-                            <Fab size="large" aria-label="add"  className={HomeCSS.addicon}>
-                                <AddIcon />
-                            </Fab>
+                           <Link to='/packs'>
+                                <Fab size="large" aria-label="add"  className={HomeCSS.addicon}>
+                                      <AddIcon />
+                                </Fab>
+                           </Link> 
                             </div>
                     </div>
                     <div className={HomeCSS.makerequest}>

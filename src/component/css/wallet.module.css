@@ -1,8 +1,9 @@
 .pblue{
-    color:#355b97; 
-    font-family:var(--Fredoka);
+    color:#02044F; 
     font-size :14px;
     line-height:1.5em;
+    font: normal normal normal 12px/20px var(--Fredoka);
+    letter-spacing: 0.38px;
 }
 .datep{
     color:#99c2ec;
@@ -11,14 +12,18 @@
      font-weight:bold;
      margin-bottom:20px;
 }
+.pblue4{
+    font: normal normal normal 18px/30px var(--Fredoka);
+    letter-spacing: 0.56px;
+    color: #355B97;
+    margin-bottom: -20px;
+    }
 .pblue2{
      color:#c3c3c4; 
      font-family:var(--Roboto);
 }
 .swapgagne{
-    width:60px;
-    height:60px;    
-    margin-top:-20px
+    width:32px;
 }
 .pblue3{
     color:#355b97; 
